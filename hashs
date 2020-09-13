@@ -79,6 +79,6 @@
         "javaURL": "https:\/\/client.craftrise.network\/api\/launcher\/launcher.json",
         "javaType": "jdk",
         "launcherURL": "https:\/\/client.craftrise.network\/api\/launcher\/files\/launcher.jar",
-        "startArguments": "-noverify"
+        "startArguments": "-Xmx%selectedRAM%M -Djava.net.preferIPv4Stack=true -XX:+DisableAttachMechanism -Dcom.ibm.tools.attach.enable=no -noverify"
     }
 }
