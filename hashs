@@ -1,6 +1,6 @@
 {
     "MAIN": {
-        "launcher.jar": "ac3dd44cc5468a1de6bdce7b2cc4187807812e43",
+        "launcher.jar": "e9de59db7fea6faf00379623ef2e33b4fb137d42",
         "minecraft.jar": "9d9bc162965850ff6220cdba61ff6b58e3bea810"
     },
     "LIBRARIES": {
@@ -79,6 +79,6 @@
         "javaURL": "https:\/\/client.craftrise.network\/api\/launcher\/launcher.json",
         "javaType": "jdk",
         "launcherURL": "https:\/\/client.craftrise.network\/api\/launcher\/files\/launcher.jar",
-        "startArguments": "-Xmx%selectedRAM%M -Djava.net.preferIPv4Stack=true -noverify"
+        "startArguments": "-Xmx%selectedRAM%M -Djava.net.preferIPv4Stack=true -XX:+DisableAttachMechanism -Dcom.ibm.tools.attach.enable=no -Xmn128M"
     }
 }
